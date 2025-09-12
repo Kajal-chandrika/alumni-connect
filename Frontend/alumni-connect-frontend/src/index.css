@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+/* Global tweaks */
+:root {
+  --sidebar-width: 260px;
+}

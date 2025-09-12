@@ -1,0 +1,100 @@
+# -------------------------------
+# OS / Editor junk
+# -------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+.idea/
+*.iml
+
+# VS Code – keep helpful project files, ignore the rest
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+
+# -------------------------------
+# Node / Monorepo
+# -------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+debug.log
+
+# -------------------------------
+# Env files (commit only examples)
+# -------------------------------
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# -------------------------------
+# Build / Cache
+# -------------------------------
+dist/
+build/
+.cache/
+.tmp/
+temp/
+tmp/
+.esbuild/
+.vite/
+coverage/
+.nyc_output/
+lcov-report/
+
+# TypeScript
+*.tsbuildinfo
+
+# -------------------------------
+# Test artifacts
+# -------------------------------
+jest-*.xml
+jest-html-reporters-*
+test-results/
+playwright-report/
+cypress/videos/
+cypress/screenshots/
+
+# -------------------------------
+# Databases / local data
+# (useful if test env uses SQLite)
+# -------------------------------
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# -------------------------------
+# Logs (keep folder, ignore files)
+# -------------------------------
+logs/
+!logs/.gitkeep
+*.log
+
+# -------------------------------
+# Uploads / public generated files
+# -------------------------------
+uploads/
+public/uploads/
+
+# -------------------------------
+# Docker / local infra
+# -------------------------------
+docker-data/
+*.env.docker.local
+
+# -------------------------------
+# Misc
+# -------------------------------
+._*
+.Spotlight-V100
+.Trashes
