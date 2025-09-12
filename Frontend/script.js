@@ -1,4 +1,3 @@
-// Mobile Menu Toggle
 const mobileMenuBtn = document.getElementById('mobileMenuBtn');
 const mobileMenu = document.getElementById('mobileMenu');
 
@@ -181,4 +180,4 @@ if ('IntersectionObserver' in window) {
 
 // Console welcome message
 console.log('%c🎓 Welcome to AlumniConnect Demo!', 'color: #3b82f6; font-size: 16px; font-weight: bold;');
-console.log('%cThis is a demo of our alumni management platform. In a real implementation, all buttons would connect to actual functionality.', 'color: #6b7280; font-size: 12px;')
+console.log('%cThis is a demo of our alumni management platform. In a real implementation, all buttons would connect to actual functionality.', 'color: #6b7280; font-size: 12px;');
